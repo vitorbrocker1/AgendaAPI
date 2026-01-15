@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\service\\user\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\service\\user\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\service\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\service\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\dto\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\dto\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\service\\appointment\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\service\\appointment\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +50,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\UserServices.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Service\\User\\UserServices.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\UserServices.cs",
+              "RelativeToolTip": "AgendaAPI\\Service\\User\\UserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T20:54:50.448Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AgendaAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:48:34.168Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\IUserServices.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Service\\User\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\IUserServices.cs",
+              "RelativeToolTip": "AgendaAPI\\Service\\User\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:24:09.689Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AgendaAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\appsettings.json",
-              "RelativeToolTip": "AgendaAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-06T19:37:34.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "AgendaAPI\\Models\\Appointment.cs",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\Appointment.cs",
-              "RelativeToolTip": "AgendaAPI\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
+              "RelativeToolTip": "AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T19:34:45.784Z",
+              "WhenOpened": "2026-01-15T23:22:18.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AgendaAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\User.cs",
-              "RelativeToolTip": "AgendaAPI\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\UserModel.cs",
+              "RelativeToolTip": "AgendaAPI\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T19:33:24.107Z",
+              "WhenOpened": "2026-01-15T20:49:18.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AgendaAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Program.cs*",
-              "RelativeToolTip": "AgendaAPI\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T18:07:27.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "AgendaAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T19:22:19.766Z",
+              "WhenOpened": "2026-01-15T20:44:27.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
+              "RelativeToolTip": "AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:40:26.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Models\\AppointmentModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\AppointmentModel.cs",
+              "RelativeToolTip": "AgendaAPI\\Models\\AppointmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T21:00:23.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Program.cs",
+              "RelativeToolTip": "AgendaAPI\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T20:43:59.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "AgendaAPI\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:09:32.826Z",
               "EditorCaption": ""
             }
           ]
