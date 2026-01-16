@@ -1,19 +1,21 @@
-﻿using AgendaAPI.Models;
+﻿
+using AgendaAPI.Dto.Appointment;
+using AgendaAPI.Models;
 
 namespace AgendaAPI.Service.Appointment
 {
     public interface IAppointmentService
     {
+        Task<ResponseModel<List<AppointmentModel>>> ListAllAppointment();
 
-        public Task<ResponseModel<List<AppointmentModel>>> GetAllAppointment();
+        Task<ResponseModel<AppointmentModel>> ListAppointmentById(int appointmentId);
 
-        public Task<ResponseModel<AppointmentModel>> GetAppointmentById(int AppointmentId);
+        Task<ResponseModel<UserModel>> ListAppointmentByIdUser(int appointmentId);
 
-        public Task<ResponseModel<AppointmentModel>> CreateAppointment(AppointmentModel appointment);
+        Task<ResponseModel<List<AppointmentModel>>> CreateAppointment(AppointmentCreationDto appointmentCreationDto);
 
-        public Task<ResponseModel<UserModel>> GetUserById(int UserId);
+        Task<ResponseModel<List<AppointmentModel>>> UpdateAppointment(AppointmentUpdateDto appointmentUpdateDto);
 
-
-
+        Task<ResponseModel<List<AppointmentModel>>> DeleteAppointment();
     }
 }

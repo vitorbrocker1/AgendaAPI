@@ -1,11 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using AgendaAPI.Models;
 
-namespace AgendaAPI.Models
+namespace AgendaAPI.Dto.Appointment
 {
-    public class AppointmentModel
+    public class AppointmentUpdateDto
     {
-        [Key]
         public int AppointmentId { get; set; }
 
         public string Title { get; set; } = string.Empty;
@@ -13,8 +11,5 @@ namespace AgendaAPI.Models
         public DateTime Date { get; set; }
 
         public UserModel User { get; set; }
-
-        public int UserId { get; set; }
-
     }
 }
