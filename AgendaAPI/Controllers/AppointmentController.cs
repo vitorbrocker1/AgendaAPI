@@ -1,4 +1,5 @@
 ﻿using AgendaAPI.Dto.Appointment;
+using AgendaAPI.Dto.AppointmentResponseDto;
 using AgendaAPI.Models;
 using AgendaAPI.Service.Appointment;
 using Microsoft.AspNetCore.Mvc;
@@ -39,28 +40,31 @@ namespace AgendaAPI.Controllers
         }
 
 
-        [HttpGet("ListAppointmentByIdUser/{AppointmentId}")]
-        public async Task<ActionResult<ResponseModel<AppointmentModel>>> ListAppointmentByIdUser(int AppointmentId)
+        [HttpGet("ListAppointmentByIdUser/{userId}")]
+        public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> ListAppointmentByIdUser(int userId)
         {
-            var appointment = await _appointmentService.ListAppointmentByIdUser(AppointmentId);
-            return Ok(appointment);
+            var response = await _appointmentService.ListAppointmentByIdUser(userId);
+            return Ok(response);
         }
+
 
 
         [HttpPut("UpdateAppointment")]
-        public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> UpdateAppointment(
-            AppointmentUpdateDto appointmentUpdateDto)
+        public async Task<ActionResult<ResponseModel<AppointmentResponseDto>>> UpdateAppointment(
+    [FromBody] AppointmentUpdateDto dto)
         {
-            var appointment = await _appointmentService.UpdateAppointment(appointmentUpdateDto);
-            return Ok(appointment);
+            var response = await _appointmentService.UpdateAppointment(dto);
+            return Ok(response);
         }
 
-        [HttpDelete("DeleteAppointment/{AppointmentId}")]
-        public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> DeleteAppointment()
+        [HttpDelete("DeleteAppointment/{appointmentId}")]
+        public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> DeleteAppointment(int appointmentId)
         {
-            var appointment = await _appointmentService.DeleteAppointment();
-            return Ok(appointment);
+            var response = await _appointmentService.DeleteAppointment(appointmentId);
+            return Ok(response);
         }
+
+
 
 
 

@@ -1,5 +1,5 @@
-﻿
-using AgendaAPI.Dto.Appointment;
+﻿using AgendaAPI.Dto.Appointment;
+using AgendaAPI.Dto.AppointmentResponseDto;
 using AgendaAPI.Models;
 
 namespace AgendaAPI.Service.Appointment
@@ -10,12 +10,14 @@ namespace AgendaAPI.Service.Appointment
 
         Task<ResponseModel<AppointmentModel>> ListAppointmentById(int appointmentId);
 
-        Task<ResponseModel<UserModel>> ListAppointmentByIdUser(int appointmentId);
+        Task<ResponseModel<List<AppointmentResponseDto>>> ListAppointmentByIdUser(int userId);
 
-        Task<ResponseModel<List<AppointmentModel>>> CreateAppointment(AppointmentCreationDto appointmentCreationDto);
+        Task<ResponseModel<List<AppointmentResponseDto>>> CreateAppointment(
+            AppointmentCreationDto appointmentCreationDto);
 
-        Task<ResponseModel<List<AppointmentModel>>> UpdateAppointment(AppointmentUpdateDto appointmentUpdateDto);
+        Task<ResponseModel<AppointmentResponseDto>> UpdateAppointment(AppointmentUpdateDto dto);
 
-        Task<ResponseModel<List<AppointmentModel>>> DeleteAppointment();
+        Task<ResponseModel<List<AppointmentModel>>> DeleteAppointment(int appointmentId);
+
     }
 }
