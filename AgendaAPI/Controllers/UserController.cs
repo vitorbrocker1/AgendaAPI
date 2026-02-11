@@ -1,12 +1,11 @@
 ﻿using AgendaAPI.Dto.User;
 using AgendaAPI.Models;
-using AgendaAPI.Service.Appointment;
 using AgendaAPI.Service.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgendaAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/users")]
     [ApiController]
     public class UserController : Controller
     {
@@ -17,44 +16,39 @@ namespace AgendaAPI.Controllers
             _userServices = userServices;
         }
 
-        [HttpPost("CreateUser")]
+        [HttpPost]
         public async Task<ActionResult<ResponseModel<List<UserModel>>>> CreateUser(UserCreationDto userCreationDto)
         {
-            var Users = await _userServices.CreateUser(userCreationDto);
-            return Ok(Users);
+            var users = await _userServices.CreateUser(userCreationDto);
+            return Ok(users);
         }
 
-        [HttpGet("ListAllUser")]
+        [HttpGet]
         public async Task<ActionResult<ResponseModel<List<UserModel>>>> ListAllUser()
         {
-
             var user = await _userServices.ListAllUser();
             return Ok(user);
         }
 
-        [HttpGet("ListUserById/{UserId}")]
+        [HttpGet("{UserId}")]
         public async Task<ActionResult<ResponseModel<UserModel>>> ListUserById(int UserId)
         {
-            
             var user = await _userServices.ListUserById(UserId);
             return Ok(user);
         }
 
-        [HttpPut("UpdateUser")]
+        [HttpPut]
         public async Task<ActionResult<ResponseModel<List<UserModel>>>> UpdateUser(UserUpdateDto userUpdateDto)
         {
-
             var user = await _userServices.UpdateUser(userUpdateDto);
             return Ok(user);
         }
 
-        [HttpDelete("DeleteUser/{UserId}")]
+        [HttpDelete("{UserId}")]
         public async Task<ActionResult<ResponseModel<List<UserModel>>>> DeleteUser(int UserId)
         {
-
             var user = await _userServices.DeleteUser(UserId);
             return Ok(user);
         }
     }
 }
-

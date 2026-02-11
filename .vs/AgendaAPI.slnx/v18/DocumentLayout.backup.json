@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|c:\\users\\vitor\\source\\repos\\agendaapi\\agendaapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{799D3416-1950-6ACC-3AA9-0267869C9918}|AgendaAPI\\AgendaAPI.csproj|solutionrelative:agendaapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\Appointment\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Service\\Appointment\\IAppointmentService.cs",
@@ -83,12 +87,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T19:02:37.422Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Service\\Appointment\\AppointmentService.cs",
@@ -97,22 +100,20 @@
               "ViewState": "AgIAAMoAAAAAAAAAAAAIwOoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T20:40:26.288Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Controllers\\AppointmentController.cs",
               "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "AgendaAPI\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAApwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAApwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T20:46:31.098Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -120,7 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AgendaAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AgendaAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T19:43:43.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppointmentResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\ResponseDto\\AppointmentResponseDto.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\ResponseDto\\AppointmentResponseDto.cs",
@@ -128,12 +142,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\ResponseDto\\AppointmentResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:30:25.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T20:30:25.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Controllers\\UserController.cs",
@@ -141,12 +154,11 @@
               "RelativeToolTip": "AgendaAPI\\Controllers\\UserController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAhwCsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:46:15.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T20:46:15.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserVinculo.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\Vinculo\\UserVinculo.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\Vinculo\\UserVinculo.cs",
@@ -154,12 +166,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\Vinculo\\UserVinculo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T21:29:17.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T21:29:17.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\UserServices.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Service\\User\\UserServices.cs",
@@ -167,12 +178,11 @@
               "RelativeToolTip": "AgendaAPI\\Service\\User\\UserServices.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAArwJoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:57:12.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T20:57:12.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppointmentUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\Appointment\\AppointmentUpdateDto.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\Appointment\\AppointmentUpdateDto.cs",
@@ -180,12 +190,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\Appointment\\AppointmentUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:43:27.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T20:43:27.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
@@ -193,12 +202,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\User\\UserUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:43:09.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T20:43:09.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Service\\User\\IUserServices.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Service\\User\\IUserServices.cs",
@@ -206,12 +214,11 @@
               "RelativeToolTip": "AgendaAPI\\Service\\User\\IUserServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:55:39.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T20:55:39.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppointmentCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\Appointment\\AppointmentCreationDto.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\Appointment\\AppointmentCreationDto.cs",
@@ -219,12 +226,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\Appointment\\AppointmentCreationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:35:27.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T20:35:27.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Models\\UserModel.cs",
@@ -232,12 +238,11 @@
               "RelativeToolTip": "AgendaAPI\\Models\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T21:29:25.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T21:29:25.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Dto\\User\\UserCreationDto.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Dto\\User\\UserCreationDto.cs",
@@ -245,12 +250,11 @@
               "RelativeToolTip": "AgendaAPI\\Dto\\User\\UserCreationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T18:49:41.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T18:49:41.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Models\\ResponseModel.cs",
@@ -258,12 +262,11 @@
               "RelativeToolTip": "AgendaAPI\\Models\\ResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T20:11:51.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T20:11:51.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AppointmentModel.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\AgendaAPI\\AgendaAPI\\Models\\AppointmentModel.cs",
               "RelativeDocumentMoniker": "AgendaAPI\\Models\\AppointmentModel.cs",

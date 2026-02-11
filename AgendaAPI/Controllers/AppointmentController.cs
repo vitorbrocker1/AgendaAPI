@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AgendaAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/appointments")]
     [ApiController]
     public class AppointmentController : Controller
     {
@@ -17,7 +17,7 @@ namespace AgendaAPI.Controllers
             _appointmentService = appointmentInterface;
         }
 
-        [HttpPost("CreateAppointment")]
+        [HttpPost]
         public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> CreateAppointment(
             AppointmentCreationDto appointmentCreationDto)
         {
@@ -25,48 +25,40 @@ namespace AgendaAPI.Controllers
             return Ok(appointment);
         }
 
-        [HttpGet("ListAllAppointment")]
+        [HttpGet]
         public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> ListAllAppointment()
         {
             var appointments = await _appointmentService.ListAllAppointment();
             return Ok(appointments);
         }
 
-        [HttpGet("ListAppointmentById/{AppointmentId}")]
+        [HttpGet("{AppointmentId}")]
         public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> ListAppointmentById(int AppointmentId)
         {
             var appointments = await _appointmentService.ListAppointmentById(AppointmentId);
             return Ok(appointments);
         }
 
-
-        [HttpGet("ListAppointmentByIdUser/{userId}")]
+        [HttpGet("/api/users/{userId}/appointments")]
         public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> ListAppointmentByIdUser(int userId)
         {
             var response = await _appointmentService.ListAppointmentByIdUser(userId);
             return Ok(response);
         }
 
-
-
-        [HttpPut("UpdateAppointment")]
+        [HttpPut]
         public async Task<ActionResult<ResponseModel<AppointmentResponseDto>>> UpdateAppointment(
-    [FromBody] AppointmentUpdateDto dto)
+            [FromBody] AppointmentUpdateDto dto)
         {
             var response = await _appointmentService.UpdateAppointment(dto);
             return Ok(response);
         }
 
-        [HttpDelete("DeleteAppointment/{appointmentId}")]
+        [HttpDelete("{appointmentId}")]
         public async Task<ActionResult<ResponseModel<List<AppointmentModel>>>> DeleteAppointment(int appointmentId)
         {
             var response = await _appointmentService.DeleteAppointment(appointmentId);
             return Ok(response);
         }
-
-
-
-
-
     }
 }
